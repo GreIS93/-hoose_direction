@@ -13,4 +13,9 @@ void ThreeSymbolArray(string[] array)
         if (array[i].Length <= 3) Console.Write($"{array[i]}; ");
 }
 
+string[] array = { "lol", "ka", "keks", "chops", "cats", "cat", "int", "internet" };
+
+PrintArray(array);
+ThreeSymbolArray(array);
+
 
